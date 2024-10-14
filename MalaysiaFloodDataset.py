@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-data = pd.read_csv('MalaysiaFloodDatset.csv')
+data = pd.read_csv('MalaysiaFloodDataset.csv')
 df= pd.DataFrame(data)
 x = df.iloc[1:825,4:16]#features
 y = df.iloc[1:825,16]#label
